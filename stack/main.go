@@ -52,12 +52,26 @@ func (s *Stack) isEmpty(){
 	fmt.Println("Stack is not empty")
 }
 
+func (s *Stack) isFull(){
+	if s.top == stackSize -1{
+		fmt.Println("Stack is full")
+		return
+	}
+	fmt.Println("Stack is not full")
+}
+
+func (s *Stack) Display(){
+	for _, v := range s.items{
+		fmt.Println(v)
+	}
+}
+
 func main(){
 	
 	var s = Stack{
 		items : make([]interface{}, 0, 10),
 		top : -1,
 	}
-
+	
 }
 
