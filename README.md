@@ -4,6 +4,7 @@ This repo contains all the Data Structures implemented using Golang
 ## Data Structures
 1. [Stack](https://github.com/albinj12/Go-Data-Structures/tree/main/stack)
    - [Stack using array](https://github.com/albinj12/Go-Data-Structures/blob/main/stack/main.go)
+   - [Stack using Linked list](https://github.com/albinj12/Go-Data-Structures/blob/main/stack/stack_linked_list.go)
 2. [Queue](https://github.com/albinj12/Go-Data-Structures/tree/main/Queue)
    - [Simple Queue](https://github.com/albinj12/Go-Data-Structures/blob/main/Queue/queue.go)
    - [Circular Queue](https://github.com/albinj12/Go-Data-Structures/blob/main/Queue/circular_queue.go)
