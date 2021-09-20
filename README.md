@@ -16,3 +16,9 @@ This repo contains all the Data Structures implemented using Golang
    - [Double Linked List](https://github.com/albinj12/Go-Data-Structures/blob/main/Linked%20List/doubly_linked_list.go)
    - [Circular Linked List](https://github.com/albinj12/Go-Data-Structures/blob/main/Linked%20List/circular_linked_list.go)
    - [Circular Double Linked List](https://github.com/albinj12/Go-Data-Structures/blob/main/Linked%20List/circular_doubly_linked_list.go)
+
+## Algorithms
+1. [Search](https://github.com/albinj12/Golang-Data-Structures-and-Algorithms/tree/main/Algorithms/Search)
+   - [Binary Search](https://github.com/albinj12/Golang-Data-Structures-and-Algorithms/tree/main/Algorithms/Search/Binary%20Search)
+      - [Iteration](https://github.com/albinj12/Golang-Data-Structures-and-Algorithms/blob/main/Algorithms/Search/Binary%20Search/binarySearch.go)
+      - [Recursion](https://github.com/albinj12/Golang-Data-Structures-and-Algorithms/blob/main/Algorithms/Search/Binary%20Search/binarySearchRecursion.go)
