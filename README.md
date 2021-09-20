@@ -22,3 +22,5 @@ This repo contains all the Data Structures implemented using Golang
    - [Binary Search](https://github.com/albinj12/Golang-Data-Structures-and-Algorithms/tree/main/Algorithms/Search/Binary%20Search)
       - [Iteration](https://github.com/albinj12/Golang-Data-Structures-and-Algorithms/blob/main/Algorithms/Search/Binary%20Search/binarySearch.go)
       - [Recursion](https://github.com/albinj12/Golang-Data-Structures-and-Algorithms/blob/main/Algorithms/Search/Binary%20Search/binarySearchRecursion.go)
+2. [Sort](https://github.com/albinj12/Golang-Data-Structures-and-Algorithms/tree/main/Algorithms/Sort)
+   - [Bubble Sort](https://github.com/albinj12/Golang-Data-Structures-and-Algorithms/blob/main/Algorithms/Sort/bubbleSort.go)
