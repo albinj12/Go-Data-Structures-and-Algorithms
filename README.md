@@ -25,3 +25,4 @@ This repo contains all the Data Structures implemented using Golang
 2. [Sort](https://github.com/albinj12/Golang-Data-Structures-and-Algorithms/tree/main/Algorithms/Sort)
    - [Bubble Sort](https://github.com/albinj12/Golang-Data-Structures-and-Algorithms/blob/main/Algorithms/Sort/bubbleSort.go)
    - [Selection Sort](https://github.com/albinj12/Golang-Data-Structures-and-Algorithms/blob/main/Algorithms/Sort/selectionSort.go)
+   - [Insertion Sort](https://github.com/albinj12/Golang-Data-Structures-and-Algorithms/blob/main/Algorithms/Sort/insertionSort.go)
