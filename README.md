@@ -2,7 +2,7 @@
 This repo contains all the Data Structures implemented using Golang
 
 ## Data Structures
-1. [Stack](https://github.com/albinj12/Go-Data-Structures/tree/main/stack)
+1. [Stack](https://github.com/albinj12/Go-Data-Structures/tree/main/Data%20Structures/stack)
    - [Stack using array](https://github.com/albinj12/Go-Data-Structures/blob/main/Data%20Structures/stack/main.go)
    - [Stack using Linked list](https://github.com/albinj12/Go-Data-Structures/blob/main/Data%20Structures/stack/stack_linked_list.go)
 2. [Queue](https://github.com/albinj12/Go-Data-Structures/tree/main/Data%20Structures/Queue)
