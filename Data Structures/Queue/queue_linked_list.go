@@ -52,6 +52,10 @@ func (q *queue) deQueue() {
 		fmt.Println("Queue is empty")
 		return
 	}
+	if q.front == q.rear {
+		q.front, q.rear = nil, nil
+		return
+	}
 
 	q.front = q.front.next
 }
