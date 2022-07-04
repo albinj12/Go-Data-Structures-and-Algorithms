@@ -112,7 +112,7 @@ func deleteNode(bstNode *node, value int) *node {
 			return bstNode.left
 		} else {
 			bstNode.data = findInorderSuccessor(bstNode.right)
-			deleteNode(bstNode.right, bstNode.data)
+			bstNode.right = deleteNode(bstNode.right, bstNode.data)
 		}
 	}
 	return bstNode
@@ -124,4 +124,24 @@ func findInorderSuccessor(bstNode *node) int {
 	}
 
 	return bstNode.data
+}
+
+func (bst *binarySearchTree) levelOrderTraversal(){
+	if bst.root == nil{
+		return
+	}
+
+	var queue []*node
+	queue = append(queue, bst.root)
+	for len(queue) > 0{
+		currentNode := queue[0]
+		queue = append(queue[:0], queue[1:]...)
+		fmt.Println(currentNode.data)
+		if currentNode.left != nil{
+			queue = append(queue, currentNode.left)
+		}
+		if currentNode.right != nil{
+			queue = append(queue, currentNode.right)
+		}
+	}
 }
