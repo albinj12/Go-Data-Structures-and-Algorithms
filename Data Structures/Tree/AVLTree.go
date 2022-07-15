@@ -18,16 +18,19 @@ type avlTree struct{
 
 func main(){
 	avlt := avlTree{}
-	avlt.insert(26)
-	avlt.insert(5)
-	avlt.insert(38)
-	avlt.insert(46)
-	avlt.insert(48)
-	avlt.insert(63)
-	avlt.insert(49)
-	avlt.insert(59)
-	avlt.insert(76)
-	avlt.insert(89)
+	// avlt.insert(26)
+	// avlt.insert(5)
+	// avlt.insert(38)
+	// avlt.insert(46)
+	// avlt.insert(48)
+	// avlt.insert(63)
+	// avlt.insert(49)
+	// avlt.insert(59)
+	// avlt.insert(76)
+	// avlt.insert(89)
+	// avlt.delete(46)
+	// avlt.insert(60)
+	// avlt.insert(50)
 	// avlt.preorderTraversal(avlt.root)
 }
 
@@ -175,7 +178,7 @@ func leftRotate(avltNode *node) *node{
 }
 
 func findInorderSuccessor(avltNode *node) int {
-	if avltNode.left != nil{
+	for avltNode.left != nil{
 		avltNode = avltNode.left
 	}
 
