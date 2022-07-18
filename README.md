@@ -19,6 +19,7 @@ This repo contains all the Data Structures implemented using Golang
 4. [Tree](https://github.com/albinj12/Golang-Data-Structures-and-Algorithms/blob/main/Data%20Structures/Tree)
    - [Binary Tree](https://github.com/albinj12/Go-Data-Structures-and-Algorithms/blob/main/Data%20Structures/Tree/binaryTree.go)
    - [Binary Search Tree](https://github.com/albinj12/Golang-Data-Structures-and-Algorithms/blob/main/Data%20Structures/Tree/binartSearchTree.go)
+   - [AVL Tree](https://github.com/albinj12/Go-Data-Structures-and-Algorithms/blob/main/Data%20Structures/Tree/AVLTree.go)
 5. [Heap](https://github.com/albinj12/Golang-Data-Structures-and-Algorithms/blob/main/Data%20Structures/Heap)
    - [Max Heap](https://github.com/albinj12/Golang-Data-Structures-and-Algorithms/blob/main/Data%20Structures/Heap/maxHeap.go)
 6. [Trie](https://github.com/albinj12/Golang-Data-Structures-and-Algorithms/blob/main/Data%20Structures/Trie)
