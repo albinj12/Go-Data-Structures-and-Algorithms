@@ -19,6 +19,13 @@ func main() {
 		children: make(map[string]*node),
 	}}
 
+	// t.insert("bat")
+	// t.insert("car")
+	// t.displayWords(t.root, "")
+	// t.delete("bat")
+	// fmt.Println()
+	// t.displayWords(t.root, "")
+
 }
 
 func (t *trie) insert(word string) {
@@ -76,6 +83,7 @@ func deleteNode(trieNode *node, word string, index int) *node {
 	}
 
 	if trieNode.children[char] == nil {
+		//builtin map key delete function
 		delete(trieNode.children, char)
 
 	}
@@ -94,4 +102,28 @@ func (t *trie) displayWords(trieNode *node, word string) {
 	for key, value := range trieNode.children {
 		t.displayWords(value, word+string(key))
 	}
+}
+
+// insert recursive method
+func (t *trie) insertRec(word string){
+	char := word[0]
+	if t.root.children[string(char)] == nil{
+		t.root.children[string(char)] = &node{
+			children : make(map[string]*node),
+		}}
+	insertNodeRec(t.root.children[string(char)], word[1:])
+}
+
+func insertNodeRec(trieNode *node, word string){
+	if len(word) == 0{
+		trieNode.wordEnd = true
+		return
+	}
+	char := word[0]
+	if trieNode.children[string(char)] == nil{
+		trieNode.children[string(char)] = &node{
+			children : make(map[string]*node),
+		}}
+	insertNodeRec(trieNode.children[string(char)], word[1:])
+
 }
