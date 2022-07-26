@@ -11,10 +11,11 @@ type vertex struct {
 
 type graph struct {
 	vertices []*vertex
+	isDirected bool
 }
 
 func main() {
-	g := graph{}
+	g := graph{isDirected: true,}
 	for i := 0; i < 4; i++ {
 		g.addVertex(i)
 	}
@@ -49,8 +50,10 @@ func (g *graph) addEdge(from, to int) {
 		fmt.Println("Vertex already exists")
 	} else {
 		fromVertex.vertex = append(fromVertex.vertex, toVertex)
+		if !g.isDirected{
+			toVertex.vertex = append(toVertex.vertex, fromVertex)
+		}
 	}
-
 }
 
 func vertexExists(vertices []*vertex, value int) bool {
