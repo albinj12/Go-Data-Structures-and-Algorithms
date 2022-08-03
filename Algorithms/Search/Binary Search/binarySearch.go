@@ -17,9 +17,8 @@ func main() {
 
 func binarySearch(array []int, element int) int {
 	left := 0
-	right := len(array)
+	right := len(array) - 1
 
-	fmt.Println("Entering into loop")
 	for left <= right {
 		middle := (left + right) / 2
 		if element == array[middle] {
